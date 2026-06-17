@@ -13,6 +13,7 @@ body{
     background-color: #F7F3ED;
     width: 1912px;
     margin: 0 auto;
+    font-family: "Poppins";
 }
 
 header{
@@ -20,7 +21,6 @@ header{
     display: flex;
     align-items: center;
     padding: 21px 60px;
-    font-family: "Poppins";
     color: #2E4F3D;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.164);
 }
@@ -38,6 +38,7 @@ nav span{
     border-radius: 30px;
     padding: 10px 20px;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
 }
 
 nav :active{
@@ -51,12 +52,7 @@ h2{
     font-size: 36px;
 }
 
-#page1{
-    
-}
-
 .main-page-text{
-    font-family: "Poppins";
     color: #2E4F3D;
     font-size: 80px;
     font-weight: bold;
@@ -67,7 +63,6 @@ h2{
 
 .up-down-main-text{
     font-size: 16px;
-    font-family: "Poppins";
     margin-left: 95px;
     color: #2C2C2C;
     display: flex;
@@ -95,5 +90,61 @@ h2{
     position: relative;
     bottom: 210px;
     left: 80px;
-    font-family: "Poppins";
+    cursor: pointer;
+}
+
+.main-button:active{
+    background-color: #F7F3ED;
+    color: #2E4F3D;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+}
+
+.text2{
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    color: #2C2C2C;
+    position: relative;
+    top: 150px;
+}
+
+.image-block{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    gap: 25px;
+}
+
+.image-card{
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text-in-block{
+    margin-left: 15px;
+}
+
+.header-block{
+    color: #2C2C2C;
+    font-size: 18.7px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description-block{
+    color: #2C2C2C;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.cost-block{
+    color: #2E4F3D;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 15px;
 }
