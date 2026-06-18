@@ -11,7 +11,7 @@
 
 body{
     background-color: #F7F3ED;
-    width: 1912px;
+    width: 1895px;
     margin: 0 auto;
     font-family: "Poppins";
 }
@@ -147,4 +147,49 @@ h2{
     font-weight: bold;
     margin-top: 10px;
     padding-bottom: 15px;
+}
+
+#page3{
+     margin-top: 400px;
+}
+
+#page4{
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.reg{
+    font-size: 24px;
+    color: #2C2C2C;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.register{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+.register button{
+    background-color: #EFEFEF;
+    color: black;
+}
+
+.register input, select, button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 13.3px;
+    color: #757575;
+    border-color: #DDDDDD;
 }
